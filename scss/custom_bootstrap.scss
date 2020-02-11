@@ -1,0 +1,8 @@
+// override default colors
+$theme-colors: (
+    "primary": rgb(27, 90, 117),
+    "secondary": rgb(12, 49, 65)
+);
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
