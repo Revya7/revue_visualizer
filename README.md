@@ -1,3 +1,5 @@
+hosted on a friend's domain https://uplody.com/visualizer/
+
 # revue_visualizer
 
 > Pathfinding and Sorting visualizer made using Vue.js
@@ -18,4 +20,3 @@ npm run build
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # revue_visualizer
 
-hosted on a friend's domain https://uplody.com/visualizer/
