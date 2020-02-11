@@ -1,4 +1,6 @@
-hosted on a friend's domain https://uplody.com/visualizer/
+Hosted on a friend's domain https://uplody.com/visualizer/
+
+Inspired by a youtube video made by Clément Mihailescu
 
 # revue_visualizer
 

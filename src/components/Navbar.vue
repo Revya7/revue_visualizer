@@ -3,7 +3,7 @@
         <div id="navbar-background" :style="{width: navMinWidth}"></div>
 
         <router-link tag="a" class="navbar-brand" to="/pathfinding">Revue Visualizer</router-link>
-        <a class="navbar-brand by">by <span class="theName">Mahdi Al-Fakih</span></a>
+        <a href="https://www.facebook.com/mahdi.alfakih.75" class="navbar-brand by">by <span class="theName">Mahdi Al-Fakih</span></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -831,7 +831,7 @@
         top: 32.5px;
         /* left: 71px; */
         user-select: none;
-        pointer-events: none;
+        /* pointer-events: none; */
     }
 
     .theName {
