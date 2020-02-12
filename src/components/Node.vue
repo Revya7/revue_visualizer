@@ -1,7 +1,7 @@
 <template>
   <div class="gridNode" :class="classState" @mousedown.prevent="mouseDown();" @mouseenter="mouseEnter()">
       <span style="pointer-events: none;" v-if="isStartNode"><i class="fas fa-angle-right fa-2x"></i></span>
-      <span style="pointer-events: none;" v-if="isEndNode"><i class="fas fa-bullseye" style="font-size: 19px;"></i></span>
+      <span style="pointer-events: none;display:flex; align-items: center;height: 100%;" v-if="isEndNode"><i class="fas fa-bullseye" style="font-size: 19px;margin-bottom: 1px;"></i></span>
   </div>
 </template>
 
