@@ -4,7 +4,7 @@ Hosted on a friend's domain https://uplody.com/visualizer/
 
 > Pathfinding and Sorting visualizer made using Vue.js
 
-# Mode: Pathfinding
+## Mode: Pathfinding
 In the Pathfinding Mode, you can place a start point and a target point on the grid either by:
 1) Holding the left mouse button on the starting point icon on the grid for example and drag it to the desired location.
 2) Hovering over Place/Draw in the navbar and choosing Start Point allowing you to place it by left click anywhere on the grid
@@ -37,15 +37,14 @@ You can use the Clear dropdown in the navbar to either clear all walls, all path
 Lastly if you have drawn a map and want to share it or save it you can Export it using the Export button in the Place/Draw dropdown to copy an object to the clipboard, you can paste it in a .txt file to save it or share it with someone.
 Which, while it's copied to the clipboard can be used by clicking the Import button to redraw the map on the grid.
 
-# Mode: Sorting
+## Mode: Sorting
 Same as pathfinding, you can choose the sorting algorithm to visualize from the Algorithm: dropdown in the navbar
 
 Hit Start Sort button to begin visualizing, the red "shutdown" button to cancel a running sort allowing you to choose another algorithm, or the pause button to allow changing the visualization speed from the Speed: dropdown in the navbar.
 
 You can generate a new array (new columns) by clicking the Generate new Array button inside the Actions dropdown in the navbar.
 
-
-
+## Note
 This project was inspired by a youtube video made by Clément Mihailescu
 
 ## Build Setup
