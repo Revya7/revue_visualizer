@@ -19,7 +19,7 @@ You can choose the algorithm you want to visualize by hovering on Algorithm: in 
 2) A* algorithm
 3) Jump point search algorithm
 
-You can change some configurations for a specific algorithm by hovering over the arrow on the right of the algorithm's name while choosing it.  
+You can change some configurations for a specific algorithm by hovering over the arrow on the right of the algorithm's name while choosing it.
 Configurations like:
 1) Enabling/disabling diagonal move for the particular algorithm
 2) Change the heuristics used for the algorithm (in A* and JPS)<br>
