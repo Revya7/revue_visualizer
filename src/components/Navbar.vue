@@ -3,7 +3,7 @@
         <div id="navbar-background" :style="{width: navMinWidth}"></div>
 
         <router-link tag="a" class="navbar-brand" to="/pathfinding">Revue Visualizer</router-link>
-        <a href="https://www.facebook.com/mahdi.alfakih.75" class="navbar-brand by">by <span class="theName">Mahdi Al-Fakih</span></a>
+        <span class="navbar-brand by">by <a target="_blank" href="https://www.facebook.com/mahdi.alfakih.75" class="theName">Mahdi Al-Fakih</a><span class="text-white"> | </span><a target="_blank" href="https://github.com/Revya7/revue_visualizer">Github</a></span>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -828,7 +828,7 @@
     .navbar-brand.by {
         position: absolute;
         font-size: 11px;
-        top: 32.5px;
+        top: 31px;
         /* left: 71px; */
         user-select: none;
         /* pointer-events: none; */
@@ -836,7 +836,12 @@
 
     .theName {
         font-size: 11px;
-        color: rgb(115, 234, 255);
+        color: rgb(115, 234, 255) !important;
+    }
+
+    .theName:hover {
+        text-decoration: underline;
+        text-decoration-color: rgb(115, 234, 255);
     }
 
 </style>
