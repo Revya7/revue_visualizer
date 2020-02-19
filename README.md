@@ -38,7 +38,14 @@ Lastly if you have drawn a map and want to share it or save it you can Export it
 Which, while it's copied to the clipboard can be used by clicking the Import button to redraw the map on the grid.<br>
 
 ## Mode: Sorting
-Same as pathfinding, you can choose the sorting algorithm to visualize from the Algorithm: dropdown in the navbar.<br>
+Same as pathfinding, you can choose the sorting algorithm to visualize from the Algorithm: dropdown in the navbar.  
+The algorithms are:
+1) Bubble Sort
+2) Insertion Sort
+3) Selection Sort
+4) Quick Sort
+5) Merge Sort
+<br>
 
 Hit Start Sort button to begin visualizing, the red "shutdown" button to cancel a running sort allowing you to choose another algorithm, or the pause button to allow changing the visualization speed from the Speed: dropdown in the navbar.<br>
 

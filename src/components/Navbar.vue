@@ -36,7 +36,7 @@
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-center align-items-center">
                                                 <label class="mb-0" :class="{disabled: algorithm.lockDiagonal}" :for="algorithm.name + '-diagonal-move'" style="cursor: pointer;">Diagonal</label>
-                                                <input type="checkbox" @change="changeDiagonal(algorithm, $event);" :checked="algorithm.lockDiagonal || algorithm.diagonal" :disabled="gridLocked || algorithm.lockDiagonal" class="ml-auto" :id="algorithm.name + '-diagonal-move'" style="cursor: pointer;">
+                                                <input type="checkbox" @change="changeDiagonal(algorithm, index, $event);" :checked="algorithm.lockDiagonal || algorithm.diagonal" :disabled="gridLocked || algorithm.lockDiagonal" class="ml-auto" :id="algorithm.name + '-diagonal-move'" style="cursor: pointer;">
                                             </div>
                                         </div>
                                     </a>
@@ -47,7 +47,7 @@
                                             <div class="row">
                                                 <div class="col-12 d-flex justify-content-center align-items-center">
                                                     <label class="mb-0" :class="{disabled: algorithm.lockDiagonal}" :for="algorithm.name + heuristic" style="cursor: pointer;">{{ heuristic }}</label>
-                                                    <input type="radio" :value="index" :checked="index == 0" @change="changeHeuristic(algorithm, $event);" :disabled="gridLocked" class="ml-auto" :id="algorithm.name + heuristic" style="cursor: pointer;" :name="algorithm.name">
+                                                    <input type="radio" :value="index" :checked="index == 0" @change="changeHeuristic(algorithm, index, $event);" :disabled="gridLocked" class="ml-auto" :id="algorithm.name + heuristic" style="cursor: pointer;" :name="algorithm.name">
                                                 </div>
                                             </div>
                                         </a>
@@ -375,11 +375,13 @@
         },
 
 
-        changeDiagonal(algorithm, $event) {
+        changeDiagonal(algorithm, index, $event) {
+            this.changeToVisualize(algorithm, index)
             algorithm.change('diagonal', $event.target.checked);
         },
 
-        changeHeuristic(algorithm, $event) {
+        changeHeuristic(algorithm, index, $event) {
+            this.changeToVisualize(algorithm, index)
             algorithm.change('heuristicIndex', $event.target.value);
         },
 
