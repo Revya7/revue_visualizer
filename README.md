@@ -1,4 +1,4 @@
-Hosted on a friend's domain https://uplody.com/visualizer/
+Hosted on https://revuevisualizer.surge.sh/
 
 # Revue Visualizer
 
